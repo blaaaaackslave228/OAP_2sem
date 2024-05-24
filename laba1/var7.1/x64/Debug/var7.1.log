@@ -1,0 +1,35 @@
+﻿Сборка начата 17.02.2024 15:04:07.
+Уровень детализации журнала: Normal.     1>Проект "D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\var7.1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\var7.1.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt var7.1.cpp
+         var7.1.cpp
+     1>D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.cpp(28,30): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     1>D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.cpp(31,22): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     1>D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.cpp(36,13): warning C4305: инициализация: усечение из "double" в "float"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Денис\2 сем\оаип\лабы\laba 1\x64\Debug\var7.1.exe" /INCREMENTAL /ILK:"x64\Debug\var7.1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Денис\2 сем\оаип\лабы\laba 1\x64\Debug\var7.1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Денис\2 сем\оаип\лабы\laba 1\x64\Debug\var7.1.lib" /MACHINE:X64 x64\Debug\var7.1.obj
+         var7.1.vcxproj -> D:\Денис\2 сем\оаип\лабы\laba 1\x64\Debug\var7.1.exe
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: D:\Денис\2 сем\оаип\laba 1\var7.1\var7.1.cpp.
+       FinalizeBuildStatus:
+         Файл "x64\Debug\var7.1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\var7.1.tlog\var7.1.lastbuildstate".
+     1>Сборка проекта "D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.cpp(28,30): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+         D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.cpp(31,22): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+         D:\Денис\2 сем\оаип\лабы\laba 1\var7.1\var7.1.cpp(36,13): warning C4305: инициализация: усечение из "double" в "float"
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:01.40
